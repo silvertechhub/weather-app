@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/weather-app/static/css/main.02737ca0.css",
+    "main.js": "/weather-app/static/js/main.b9cc5e21.js",
+    "static/js/787.28cb0dcd.chunk.js": "/weather-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/sunnyday-hills.jpg": "/weather-app/static/media/sunnyday-hills.071d959026eaf91ee510.jpg",
+    "static/media/snow.png": "/weather-app/static/media/snow.84592995f8218e24b6f3.png",
+    "static/media/general-bg.png": "/weather-app/static/media/general-bg.a992c383bfd03f602322.png",
+    "static/media/sunny-clouds.png": "/weather-app/static/media/sunny-clouds.4c781e5aeddc80a30621.png",
+    "static/media/rain.png": "/weather-app/static/media/rain.24b6f2744a43d7d760a5.png",
+    "static/media/sunnyday.jpg": "/weather-app/static/media/sunnyday.19b7d4deef63e17ba384.jpg",
+    "static/media/cloudy.png": "/weather-app/static/media/cloudy.1ed36ff6f0a70b106641.png",
+    "static/media/clouds.png": "/weather-app/static/media/clouds.ba304697bac03e627a95.png",
+    "static/media/digitaldreamskewnarrow-webfont.woff": "/weather-app/static/media/digitaldreamskewnarrow-webfont.cff89b70e9854ca55f8a.woff",
+    "static/media/digitaldreamskewnarrow-webfont.woff2": "/weather-app/static/media/digitaldreamskewnarrow-webfont.9ad3b211579c77979810.woff2",
+    "index.html": "/weather-app/index.html",
+    "main.02737ca0.css.map": "/weather-app/static/css/main.02737ca0.css.map",
+    "main.b9cc5e21.js.map": "/weather-app/static/js/main.b9cc5e21.js.map",
+    "787.28cb0dcd.chunk.js.map": "/weather-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02737ca0.css",
+    "static/js/main.b9cc5e21.js"
+  ]
+}
