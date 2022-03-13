@@ -1,38 +1,203 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'digital_dream_skew_narrowRg';
+  src: url('digitaldreamskewnarrow-webfont.woff2') format('woff2'),
+       url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'),
+       url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap'),
+       url('digitaldreamskewnarrow-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
+.date{
+font-size: 24px;
+font-weight: 500;
+display: flex;
+  flex-direction:column;
+align-items: center;
+padding-top: 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+align-items: center;
+}
+.search{
+  margin-top: 15px;
+  width: 60%;
+  height: 35px;
+  border: 2px solid rgb(139, 240, 253);
+  border-radius: 0 10px;
+  outline: none;
+
+}
+.search:focus{
+  background-color: rgb(236, 228, 228);
+}
+.submit-btn{
+  margin-top: 15px;
+  height: 35px;
+  width: 85px;
+  border: 1px solid rgb(236, 234, 230);
+border-radius: 0 0 10px 10px;
+outline: none;
+}
+.submit-btn:hover{
+  background-color: aqua;
+  color: black;
+}
+.onload{
+  font-size: 28px;
+  font-family: serif;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10%;
+}
+.display{
+  display: flex;
+  flex-direction:column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 5%;
+
+}
+.temp{
+  font-family: 'digital_dream_skew_narrowRg';
+  font-size: 40px;
+  font-weight: 600;
+}
+.weather{
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+}
+.location{
+  font-size: 35px;
+  font-family: 'Exo 2', sans-serif;
+}
+.error{
+  font-size: 28px;
+  font-family: serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5%;
+}
+footer{
+  background-color: #215EFF;
   color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* conditional bg */
+.clear-sunny{
+  margin: 30px auto;
+  background-image: url('./asset/sunnyday.jpg') ;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+  
+
+.clouds{
+  margin: 30px auto;
+  background-image: url('./asset/clouds.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+.sunnyday-hills{
+  margin: 30px auto;
+  background-image: url('./asset/sunnyday-hills.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+.light-cloud{
+  
+  margin: 30px auto;
+  background-image: url('./asset/sunny-clouds.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+.heavy-cloud{
+  
+  margin: 30px auto;
+  background-image: url('./asset/cloudy.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
 }
 
-.App-link {
-  color: #61dafb;
+
+.rain{
+  
+  margin: 30px auto;
+  background-image: url('./asset/rain.png') ;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+.snow{
+  margin: 30px auto;
+  background-image: url('./asset/snow.png') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+.container{
+  position: relative;
+  margin: 30px auto;
+  width: 80vw;
+  height: 90vh;
+  background-image: url("./asset/general-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-device-width: 480px) {
+  .container{
+    padding-top: 110px;
   }
-  to {
-    transform: rotate(360deg);
+  .display{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 35%;
+  
+  }
+  form{
+    margin-top: 10%;
   }
 }
