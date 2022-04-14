@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.ffb40485.css",
-    "main.js": "/weather-app/static/js/main.aa103488.js",
+    "main.css": "/weather-app/static/css/main.022d4e66.css",
+    "main.js": "/weather-app/static/js/main.60e59156.js",
     "static/media/sunnyday-hills.jpg": "/weather-app/static/media/sunnyday-hills.071d959026eaf91ee510.jpg",
     "static/media/harry.png": "/weather-app/static/media/harry.748d5174da9bc3fe02e6.png",
     "static/media/snow.png": "/weather-app/static/media/snow.84592995f8218e24b6f3.png",
@@ -15,11 +15,11 @@
     "static/media/digitaldreamskewnarrow-webfont.woff": "/weather-app/static/media/digitaldreamskewnarrow-webfont.cff89b70e9854ca55f8a.woff",
     "static/media/digitaldreamskewnarrow-webfont.woff2": "/weather-app/static/media/digitaldreamskewnarrow-webfont.9ad3b211579c77979810.woff2",
     "index.html": "/weather-app/index.html",
-    "main.ffb40485.css.map": "/weather-app/static/css/main.ffb40485.css.map",
-    "main.aa103488.js.map": "/weather-app/static/js/main.aa103488.js.map"
+    "main.022d4e66.css.map": "/weather-app/static/css/main.022d4e66.css.map",
+    "main.60e59156.js.map": "/weather-app/static/js/main.60e59156.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffb40485.css",
-    "static/js/main.aa103488.js"
+    "static/css/main.022d4e66.css",
+    "static/js/main.60e59156.js"
   ]
 }
